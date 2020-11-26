@@ -1,0 +1,9 @@
+<part>
+	<display-name>jeg er en blokk</display-name>
+	<form>
+		<input type="TextLine" name="header">
+			<label>Part-tekst</label>
+			<occurrences minimum="0" maximum="1"/>
+		</input>
+	</form>
+</part>

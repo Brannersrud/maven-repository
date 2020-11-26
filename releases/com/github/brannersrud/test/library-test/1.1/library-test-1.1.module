@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.brannersrud.test",
+    "module": "library-test",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "dliqu4zjivcfjkxnmw6tbd2nim"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.enonic.xp",
+          "module": "core-api",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "portal-api",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "lib-content",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "lib-portal",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.lib",
+          "module": "lib-thymeleaf",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-test-1.1.jar",
+          "url": "library-test-1.1.jar",
+          "size": 2383710,
+          "sha512": "abd5306d2a81a2481d8debe161316e0a98683ccf95b03405e75e3a9122f0b41a79c131f844d643da8417a522bc3e65b0f00ef049f93638a6ceaebc9819a90dae",
+          "sha256": "7e0ab3c9efc57bfd6d865252492df07478bdb6f074613f76f6b4ccf17ce8a1ab",
+          "sha1": "4d3d6de0e90a696ff6a48411b9b77e1c67e526e6",
+          "md5": "4a81bc11d0b0068bbda5a1fda48e1f77"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 12,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.enonic.xp",
+          "module": "core-api",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "portal-api",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "lib-content",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.xp",
+          "module": "lib-portal",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "com.enonic.lib",
+          "module": "lib-thymeleaf",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-test-1.1.jar",
+          "url": "library-test-1.1.jar",
+          "size": 2383710,
+          "sha512": "abd5306d2a81a2481d8debe161316e0a98683ccf95b03405e75e3a9122f0b41a79c131f844d643da8417a522bc3e65b0f00ef049f93638a6ceaebc9819a90dae",
+          "sha256": "7e0ab3c9efc57bfd6d865252492df07478bdb6f074613f76f6b4ccf17ce8a1ab",
+          "sha1": "4d3d6de0e90a696ff6a48411b9b77e1c67e526e6",
+          "md5": "4a81bc11d0b0068bbda5a1fda48e1f77"
+        }
+      ]
+    }
+  ]
+}
